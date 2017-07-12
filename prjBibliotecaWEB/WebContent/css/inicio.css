@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+
+#pg_inicio{
+	text-align: center;
+}
+
+body#corpo {
+background-image: url("../imagens/imgFundo.jpg"); background-color: #000000;
+background-attachment: fixed; background-repeat: no-repeat; 
+background-position:middle;
+background-size:100% 100%; /* fundo na tela toda e sem redirecionamento*/
+-moz-background-size: 100% 100%; /* fundo na tela toda e sem redirecionamento MOZILLA*/
+} 
+
+div#geral {
+position: absolute;
+left: 90px; top: 70px;
+margin: 0 auto;
+width: 1100px;
+}
+div#topo {
+border: 2px dashed;
+background-image: url("../imagens/imgTopo1.jpg"); background-color: #F5F5DC;
+background-repeat: no-repeat; background-position:center; background-size: 950px;
+height: 110px; width: 100%;
+margin-bottom: 55px; 
+
+}
+
+#topo b {
+text-align:center; font-family: Impact, Courier New, Broadway; color:white; font-size:40px; 
+padding: 30px; display: block;
+}
+
+
+
+/** Formatando os menus superior **/
+#menuOpt {
+height: 100px; width: 850px; background: #F5F5DC;
+border-radius: 5px; margin: auto;
+}
+#menuOpt ul {
+	margin: 0px; padding: 0px; list-style: none;
+	width: 100%; float: left;
+}  
+#menuOpt ul li{
+	font: 16px arial; float: left; border-right: 1px solid #eee;
+}
+#menuOpt ul li a{
+	color: #888; text-decoration: none; padding: 20px; display: block;
+}
+#menuOpt ul li:hover {
+	background: #eee;
+}
+#menuOpt ul li .autor{
+	background: url(../imagens/menuAutor.png) no-repeat center; float: left; width: 100%;
+	padding: 30px 0; margin-botttom: 15px;
+}
+#menuOpt ul li .livro{
+	background: url(../imagens/menuLivro.png) no-repeat center; float: left; width: 100%;
+	padding: 30px 0; margin-botttom: 5px;
+}
+#menuOpt ul li .exemplar{
+	background: url(../imagens/menuExemplar.png) no-repeat center; float: left; width: 100%;
+	padding: 30px 0; margin-botttom: 15px;
+}
+#menuOpt ul li .editora{
+	background: url(../imagens/menuEditora.jpg) no-repeat center; float: left; width: 100%;
+	padding: 30px 0; margin-botttom: 15px;
+}
+#menuOpt ul li .professor{
+	background: url(../imagens/menuProfessor.png) no-repeat center; float: left; width: 100%;
+	padding: 30px 0; margin-botttom: 15px;
+}
+#menuOpt ul li .aluno{
+	background: url(../imagens/menuAluno.jpg) no-repeat center; float: left; width: 100%;
+	padding: 30px 0; margin-botttom: 15px;
+}
+#menuOpt ul li .emprestimo{
+	background: url(../imagens/menuEmprestimo.png) no-repeat center; float: left; width: 100%;
+	padding: 30px 0; margin-botttom: 15px;
+}
+#menuOpt ul li .pendencias{
+	background: url(../imagens/menuPendente.jpg) no-repeat center; float: left; width: 100%;
+	padding: 30px 0; margin-botttom: 15px;
+}
+/** Fim dos menus **/
+
+#meio{
+	height: 600px; width: 850px;
+	border-radius: 5px; margin: 5px auto; 
+
+}
+
+#meio iframe#iframe1{
+	height: 610px; width: 845px;
+	border: none;
+}
+
+
+table{
+	border: 1px solid black; padding: 2px;
+	margin: 20px auto;
+}
+
+
+table td{
+	border: 1px solid black; padding: 2px;
+	
+}
+
+}
+
+#meio2{
+	height: 550px; width: 810px;
+	
+}
+
+#meio3{
+	height: 555px; width: 630px; background: #F5F5DC;
+	margin-left: 190px;
+	
+}
+
+/** Formatando a tabela de opções de incluir, alterar e excluir **/
+#esquerdo{
+	height: 100px; width: 150px;  background: #F5F5DC;
+	border-radius: 5px; margin-top: -550px
+	
+} 
+
+#esquerdo ul {
+	margin: 0px; padding: 0px; list-style-type: none; /* retira o marcador de listas*/
+	width: 100%; 
+}  
+#esquerdo ul li{
+	font: 16px arial; border-right: 1px solid #eee; text-align: center;
+	
+}
+#esquerdo ul li a{
+	color: #888; text-decoration: none; padding: 20px; display: block;
+}
+#esquerdo ul li a:hover {
+	background: #eee;
+	
+}
+
+.format{
+	text-align: center; padding-top: 10px; padding-bottom: 10px;
+}
+
+.formatColor{
+	text-align: center; padding-top: 10px; padding-bottom: 10px; 
+	background: #F5DEB3;
+}
+
+.linhaTab{
+	background: #D2B48C;  padding-top: 5px; padding-bottom: 5px;
+
+	}
+}
